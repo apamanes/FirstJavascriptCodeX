@@ -1,0 +1,74 @@
+/*Name this external file gallery.css*/
+body{
+	margin: 2%;
+	border: 1px solid black;
+	background-color: #b3b3b3;
+}
+#image{
+  line-height:650px;
+	width: 650px;
+  height: 325px;
+	border:8px solid black;
+	margin:0 auto;
+  background-color: #8e68ff;
+  background-image: url('');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color:white;
+  text-align: center;
+  background-size: 100%;
+  margin-bottom:25px;
+  font-size: 150%;
+  /*line-height:650px;
+	width: 575px;
+  height: 650px;
+	border:5px solid black;
+	margin:0 auto;
+  background-color: #8e68ff;
+  background-image: url('');
+  background-repeat: no-repeat;
+  color:white;
+  text-align: center;
+  background-size: 100%;
+  margin-bottom:25px;
+  font-size: 150%;*/
+
+
+}
+
+#image img{
+
+  /*width: 575px;*/
+  /*height: 650px;*/
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+
+.preview{
+  
+	width:10%;
+	margin-left:17%;
+  opacity: 0.5;
+
+}
+
+.preview:focus,.preview:hover {
+
+  width:10%;
+	margin-left:17%;
+  border: 4px solid black;
+  opacity: 1.0;
+
+}
+
+
+img{
+		width:95%;
+    /*height: 100%;*/
+}
